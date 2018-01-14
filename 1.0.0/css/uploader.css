@@ -1,0 +1,19 @@
+.btn-dd-uploader{display: inline-block; background-image: url(./../img/btn_add.png); background-size: 100% 100%; width: 90px; height: 90px; border: 0; outline: none; margin: 5px;  }
+.btn-dd-uploader:hover { background-image: url('./../img/btn_add_hover.png'); }
+.dd-cropper-radio{ display: inline-block; text-align: center; width: 68%;  }
+.dd-cropper-download{ display: inline-block; text-align: right; width: 20%;  }
+.docs-cropped .modal-body > img, .docs-cropped .modal-body > canvas {max-width: 100%;  }
+.dd-uploader-item { position: relative; display: inline-block; width: 90px; height: 90px; margin: 0px 8px 5px; }
+.dd-uploader-div-img { position: absolute; z-index: 2; width: 100%; text-overflow: ellipsis; height: 100%; word-wrap: break-word; overflow: hidden;  }
+.dd-uploader-div-img img { width: 90px; height: 90px;  }
+.dd-uploader-div-panel { position: absolute; width: 100%; top: 0px; left: 0px; height: 0px; z-index: 300; background: rgba(0, 0, 0, 0.5); overflow: hidden;  }
+.dd-uploader-div-panel span.cancel { background-position: -48px -24px; }
+.dd-uploader-div-panel span.cancel:hover { background-position: -48px 0; }
+.dd-uploader-div-panel span { width: 24px; height: 24px; display: inline; float: right; text-indent: -9999px; cursor: pointer; overflow: hidden; background: url(./../img/icons.png) no-repeat; margin: 5px 1px 1px;  }
+.dd-uploader-div-panel span.next { background-position: -96px -24px;  }
+.dd-uploader-div-panel span.next:hover { background-position: -96px 0; }
+.dd-uploader-div-panel span { width: 24px; height: 24px; display: inline; float: right; text-indent: -9999px; cursor: pointer; overflow: hidden; background: url(./../img/icons.png) no-repeat; margin: 5px 1px 1px;  }
+.dd-uploader-div-panel span.prev {  background-position: -72px -24px;  }
+.dd-uploader-div-panel span.prev:hover { background-position: -72px 0; }
+.dd-uploader-div-panel span { width: 24px; height: 24px; display: inline; float: right; text-indent: -9999px; cursor: pointer; overflow: hidden; background: url(./../img/icons.png) no-repeat; margin: 5px 1px 1px;  }
+.upload-div-panel span.prev { background-position: -72px -24px; }
