@@ -3,11 +3,11 @@
 此插件完成了图片剪切后上传服务器功能
 
 ## 2.Js、Css引入
-* <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
-* <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-* <script type="text/javascript" src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-* <script type="text/javascript" src="./js/cutUploader.js"></script>
-* <script type="text/javascript" src="./js/ddUtil.js"></script>
+* `<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>`
+* `<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>`
+* `<script type="text/javascript" src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>`
+* `<script type="text/javascript" src="./js/cutUploader.js"></script>`
+* `<script type="text/javascript" src="./js/ddUtil.js"></script>`
 
 ## 3.页面元素及说明
   ### html代码如下：
@@ -26,4 +26,4 @@
 * value_name：同dd-uploader-name属性,同时存在时,以dd-uploader-name为准
 * maxLength：允许上传的图片数量，默认没有限制
 * autoCropArea：图片剪切默认剪切大小，为0-1小数，默认为1
-* aspectRatio：剪切比例，默认
+* aspectRatio：剪切比例，默认["16:9", "4:3"]
