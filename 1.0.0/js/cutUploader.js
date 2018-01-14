@@ -20,10 +20,10 @@
     $.fn.ddCutUploader = function (option) {
         option.$uplorderDom = $(this);
         var options = $.extend({}, defaultOption, option);
-        var fileField = createThis(option);
+        var fileField = createThis(options);
         fileField.$input_file.change(function () {createCutView(options, fileField, this)});
         option.$uplorderDom.find(".btn-dd-uploader").click(function () {fileField.$input_file.click()});
-        handelAttrAndOption(option);
+        handelAttrAndOption(options);
     };
 
     function handelAttrAndOption(option) {
